@@ -1,7 +1,7 @@
 pipelineJob('pljob') {
 	description('First Pipeline job')
 	displayName('First Pipeline Job')   
-	node('master')
+	node('master'){
 	stage('Prepare'){
 		println('Prepare Stage...')
 	}
@@ -17,5 +17,6 @@ pipelineJob('pljob') {
 	stage('Notify'){
 		println('Notifying...')
 	}
+}
 }
 
