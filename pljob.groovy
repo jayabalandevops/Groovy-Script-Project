@@ -15,7 +15,7 @@ pipelineJob('pljob') {
 		println('Deploy...')
 	}
 	stage('Notify'){
-		println('Notifying...)
+		println('Notifying...')
 	}
 }
 
