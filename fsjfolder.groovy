@@ -8,7 +8,7 @@ freeStyleJob('fsj-folder') {
     description('Groovy Script Free Style Project creates Folder')
     steps {
 	  dsl{
-	      external('fsjfolder.groovy')
+	      external('projectjj.groovy')
 	  }
     }
 }
